@@ -8,8 +8,8 @@ const session = require("express-session");
 const passport = require("passport");
 const OAuth2Strategy = require("passport-google-oauth20").Strategy;
 const admindb = require("./model/adminSchema")
-const clientid = ""
-const clientsecret = ""
+const clientid = "321339119713-gd8mve8g7h0eaeslvbakmh23kfv1v3db.apps.googleusercontent.com"
+const clientsecret = "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"
 const Student = require('./model/schemaData');
 
 app.use(cors({
