@@ -1,0 +1,113 @@
+body {
+    background-color: #ffffff;
+  }
+  
+  .header {
+    margin-left: 50px;
+  }
+  
+  .container {
+    padding: 30px;
+    max-width: max-content;
+  
+    margin: 30px auto;
+    border-radius: 8px;
+    
+  }
+  
+  .btn {
+    border: none;
+    padding: 7px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-add {
+    background: #d5d5da;
+  }
+  
+  .addContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .addContainer form {
+    width: 420px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .addContainer form label {
+    font-size: 15px;
+    padding: 5px;
+  }
+  
+  .addContainer form input {
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-color: gray;
+  }
+  
+  .addContainer form select {
+    padding: 5px;
+  }
+  
+  .addContainer form button {
+    background-color: grey;
+    color: white;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  
+  .addContainer form .close-btn {
+    margin-left: auto;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .table-container {
+    margin-top: 30px;
+  }
+  
+  .table-container table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .table-container table thead tr th,
+  .table-container table tbody tr td {
+    border: 2px solid black;
+    padding: 50px ;
+  }
+  
+  .table-container table thead tr th {
+    background-color: #f0eaea;
+    text-align: center;
+  }
+  
+  .table-container table tbody tr td {
+    text-align: center;
+  }
+  
+ 

@@ -1,0 +1,83 @@
+/* General Styles */
+.home-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #050505;
+    background: linear-gradient(120deg, #a6c1ee, #fbc2eb);
+    padding: 120px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Header Styles */
+  /* .home-header {
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+  
+  .home-header h1 {
+    font-size: 10.5rem;
+    color: #272020;
+    justify-content: center;
+    text-align: center;
+  } */
+  .home-container h1{
+    font-size: 5.5rem;
+    color: #272020;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    color: #494747;
+    justify-content: center;
+  }
+  
+  /* Features Section */
+  .home-features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 90px;
+  }
+  
+  .feature-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Footer Styles */
+  .home-footer {
+    margin-top: 1px;
+    color: #fff;
+  }
+  
+  .home-footer p {
+    font-size: 1rem;
+  }
+  
